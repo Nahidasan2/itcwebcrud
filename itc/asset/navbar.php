@@ -29,6 +29,9 @@ $username = isset($_SESSION['username']) ? $_SESSION['username'] : 'Pengguna';
         <a class="nav-link active" href="allabsen.php"><i class="bi bi-person-vcard"></i> Data Absen</a>
       </li>
       <li class="nav-item">
+        <a class="nav-link active" href="member.php"><i class="bi bi-person-rolodex"></i>Member</a>
+      </li>
+      <li class="nav-item">
         <p class="nav-link"><i class="bi bi-person-circle"></i> <?php echo $username ?></p>
       </li>
       <li>
