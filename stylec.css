@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container {
+    position: absolute;
+    top: 50%;
+    left: 800px;
+    transform: translate(-30%, -50%);
+    background: rgba(82, 173, 173, 0.7);
+    box-shadow: 0px 0px 25px 10px black;
+    width: 500px;
+    padding: auto;
+    height: 470px;
+    border-radius: 15px;
+
+}
+.input h1 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    border-bottom: 1px solid white;
+    padding-top: 0;
+    margin-top: 20px;
+}
+.form-chek {
+    color: white;
+}
+.form-chek label {
+    font-size: 25px;
+    margin-top: 10px;
+}
+.form-chek input {
+    border: none;
+}
+
+.form {
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+}
+.form-control {
+    margin-bottom: 10px;
+}
+.form-check {
+    color: white;
+}
+.form-check label {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.form-chettk{
+    color: white;
+}
+.form-chettk label {
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+.form-check input {
+    margin-top: 5px;
+}
+.button {
+    margin-top: 20px;
+}
+.button button{
+    background-color: white;
+    color: black;
+    border: none;
+}
+.button button:hover {
+    background-color: brown;
+}
